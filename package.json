@@ -1,0 +1,30 @@
+{
+  "name": "dynamic-proxy-server",
+  "version": "1.0.0",
+  "description": "A dynamic proxy server that automatically updates the target tunnel URL and removes specific headers.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "proxy",
+    "dynamic-tunnel",
+    "express",
+    "http-proxy-middleware",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
